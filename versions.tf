@@ -2,7 +2,7 @@ terraform {
   required_providers {
     aviatrix = {
     source  = "AviatrixSystems/aviatrix"
-    version = ">= 3.1.6, < 3.2.0"
+    version = "~> 3.0.1"
 }
     aws = {
       source  = "hashicorp/aws"
